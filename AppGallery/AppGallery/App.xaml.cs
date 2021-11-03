@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace AppGallery
 {
@@ -10,17 +8,28 @@ namespace AppGallery
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            /*
+            // Instanciar página de navegação
+            NavigationPage page = new NavigationPage(new XamarinForms.Pages.Navigation.ContentPage01());
+
+            // Atribuir página inicial
+            MainPage = page;
+            */
+
+            MainPage = new XamarinForms.Pages.Modal.Content01();
         }
 
+        // Aplicação iniciada
         protected override void OnStart()
         {
         }
 
+        // Sai do aplicativo, mas ele continua aberto em segundo plano
         protected override void OnSleep()
         {
         }
 
+        // Retorna ao aplicativo
         protected override void OnResume()
         {
         }
