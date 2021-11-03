@@ -16,7 +16,20 @@ namespace AppGallery
             MainPage = page;
             */
 
+            /*//Página Modal
             MainPage = new XamarinForms.Pages.Modal.Content01();
+            */
+
+            //Página carrosel
+            CarouselPage page = new CarouselPage();
+
+            page.Children.Add(new XamarinForms.Pages.Carousel.Content01());
+            page.Children.Add(new XamarinForms.Pages.Carousel.Content02());
+            page.Children.Add(new XamarinForms.Pages.Carousel.Content03());
+
+            page.CurrentPage = page.Children[1];
+
+            MainPage = page;            
         }
 
         // Aplicação iniciada
