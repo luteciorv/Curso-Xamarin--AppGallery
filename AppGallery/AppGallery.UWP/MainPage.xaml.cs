@@ -17,9 +17,10 @@ namespace AppGallery.UWP
 {
     public sealed partial class MainPage
     {
+        [Obsolete]
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
 
             LoadApplication(new AppGallery.App());
         }

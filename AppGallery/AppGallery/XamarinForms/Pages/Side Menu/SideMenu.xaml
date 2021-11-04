@@ -2,7 +2,7 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallery.XamarinForms.Pages.Side_Menu.SideMenu"
-             xmlns:local="clr-namespace:AppGallery.XamarinForms.Pages.Side_Menu">
+             xmlns:local="clr-namespace:AppGallery.XamarinForms.Pages.Side_Menu" x:DataType="local:SideMenu">
 
     <!--Menu-->
     <MasterDetailPage.Master>

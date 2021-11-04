@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:side_menu="clr-namespace:AppGallery.XamarinForms.Pages.Side_Menu" x:DataType="side_menu:SideMenu"
-             x:Class="AppGallery.XamarinForms.Pages.Side_Menu.Content03"
-             Title="Página 03">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:appbase="clr-namespace:AppGallery.AppBase" x:DataType="appbase:MainSideMenu"
+             x:Class="AppGallery.AppBase.Home"
+             Title="Conten Page">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Página 03"
+            <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

@@ -17,7 +17,9 @@ namespace AppGallery
 
             // TabbedPage();
 
-            SideMenu();
+            // SideMenu();
+
+            MainPage = new AppBase.MainSideMenu();
         }
 
         // Aplicação iniciada

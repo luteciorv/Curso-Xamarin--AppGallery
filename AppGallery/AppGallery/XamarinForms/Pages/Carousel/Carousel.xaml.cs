@@ -4,9 +4,9 @@ using Xamarin.Forms.Xaml;
 namespace AppGallery.XamarinForms.Pages.Carousel
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Content01 : ContentPage
+    public partial class Carousel : CarouselPage
     {
-        public Content01()
+        public Carousel()
         {
             InitializeComponent();
         }
