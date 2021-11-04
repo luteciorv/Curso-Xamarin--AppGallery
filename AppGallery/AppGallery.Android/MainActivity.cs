@@ -10,7 +10,10 @@ namespace AppGallery.Droid
     [Activity(Theme = "@style/MainTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+        [Obsolete]
+        #pragma warning disable CS0809 // O membro obsoleto substitui o membro não obsoleto
         protected override void OnCreate(Bundle savedInstanceState)
+#       pragma warning restore CS0809 // O membro obsoleto substitui o membro não obsoleto
         {
             base.OnCreate(savedInstanceState);
 
