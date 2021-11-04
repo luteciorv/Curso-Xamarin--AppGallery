@@ -20,6 +20,7 @@ namespace AppGallery
             MainPage = new XamarinForms.Pages.Modal.Content01();
             */
 
+            /*
             //Página carrosel
             CarouselPage page = new CarouselPage();
 
@@ -29,7 +30,11 @@ namespace AppGallery
 
             page.CurrentPage = page.Children[1];
 
-            MainPage = page;            
+            MainPage = page;     
+            */
+
+            // Página de abas
+            MainPage = new XamarinForms.Pages.Tabbed.Tabbed();
         }
 
         // Aplicação iniciada
